@@ -1,0 +1,501 @@
+Transaction_Date,Product_Name,Quantity_Sold,Sales_Revenue,Cost_of_Goods,Direct_Expenses
+2025-04-01,Roast Ground Coffee (250g),14,2975.84,2240,50.0
+2025-04-02,Refined Sugar (5kg),9,2128.59,1890,100.0
+2025-04-02,Sunflower Cooking Oil (1L),13,2013.96,1690,0.0
+2025-04-02,Refined Sugar (5kg),5,1191.95,1050,0.0
+2025-04-04,Whole Wheat Flour (10kg),1,468.46,380,0.0
+2025-04-04,Lentils / Split Dal (1kg),2,303.42,240,50.0
+2025-04-05,Premium Rice (5kg),8,3546.56,2800,50.0
+2025-04-05,Whole Wheat Flour (10kg),7,3218.46,2660,100.0
+2025-04-06,Whole Wheat Flour (10kg),9,4195.53,3420,0.0
+2025-04-09,Refined Sugar (5kg),12,2755.92,2520,0.0
+2025-04-09,Whole Wheat Flour (10kg),10,4568.9,3800,100.0
+2025-04-10,Refined Sugar (5kg),11,2573.89,2310,100.0
+2025-04-13,Roast Ground Coffee (250g),14,2951.62,2240,0.0
+2025-04-13,Roast Ground Coffee (250g),6,1324.62,960,0.0
+2025-04-14,Sunflower Cooking Oil (1L),2,302.5,260,100.0
+2025-04-15,Whole Wheat Flour (10kg),6,2742.54,2280,0.0
+2025-04-15,Premium Rice (5kg),8,3552.16,2800,100.0
+2025-04-16,Roast Ground Coffee (250g),9,1995.66,1440,0.0
+2025-04-17,Sunflower Cooking Oil (1L),14,2184.14,1820,20.0
+2025-04-18,Assam Black Tea (500g),14,5021.38,3920,100.0
+2025-04-20,Premium Rice (5kg),1,430.04,350,100.0
+2025-04-21,Iodized Salt (1kg),4,107.6,96,0.0
+2025-04-21,Whole Wheat Flour (10kg),3,1377.72,1140,0.0
+2025-04-22,Assam Black Tea (500g),9,3296.97,2520,100.0
+2025-04-22,Refined Sugar (5kg),14,3302.6,2940,100.0
+2025-04-23,Assam Black Tea (500g),7,2542.54,1960,100.0
+2025-04-26,Refined Sugar (5kg),14,3254.86,2940,0.0
+2025-04-27,Lentils / Split Dal (1kg),14,2169.86,1680,20.0
+2025-04-28,Lentils / Split Dal (1kg),11,1711.05,1320,20.0
+2025-04-28,Assam Black Tea (500g),11,3844.94,3080,0.0
+2025-04-29,Iodized Salt (1kg),14,395.92,336,0.0
+2025-05-03,Lentils / Split Dal (1kg),11,1723.37,1320,20.0
+2025-05-03,Iodized Salt (1kg),1,27.85,24,50.0
+2025-05-05,Premium Rice (5kg),8,3528.64,2800,20.0
+2025-05-05,Iodized Salt (1kg),5,140.05,120,0.0
+2025-05-05,Sunflower Cooking Oil (1L),1,150.08,130,0.0
+2025-05-06,Assam Black Tea (500g),11,3860.45,3080,100.0
+2025-05-06,Lentils / Split Dal (1kg),8,1275.28,960,0.0
+2025-05-07,Sunflower Cooking Oil (1L),2,297.98,260,20.0
+2025-05-07,Refined Sugar (5kg),8,1930.32,1680,20.0
+2025-05-08,Whole Wheat Flour (10kg),8,3740.08,3040,20.0
+2025-05-09,Assam Black Tea (500g),2,709.2,560,100.0
+2025-05-09,Roast Ground Coffee (250g),1,221.32,160,0.0
+2025-05-09,Lentils / Split Dal (1kg),13,2042.56,1560,0.0
+2025-05-11,Refined Sugar (5kg),9,2140.65,1890,20.0
+2025-05-11,Whole Wheat Flour (10kg),6,2690.94,2280,50.0
+2025-05-12,Assam Black Tea (500g),5,1835.7,1400,20.0
+2025-05-14,Refined Sugar (5kg),4,936.24,840,0.0
+2025-05-14,Whole Wheat Flour (10kg),14,6528.34,5320,0.0
+2025-05-15,Refined Sugar (5kg),9,2147.85,1890,0.0
+2025-05-16,Lentils / Split Dal (1kg),6,941.22,720,50.0
+2025-05-17,Whole Wheat Flour (10kg),12,5562.84,4560,50.0
+2025-05-17,Premium Rice (5kg),2,889.0,700,0.0
+2025-05-18,Whole Wheat Flour (10kg),14,6237.56,5320,0.0
+2025-05-18,Whole Wheat Flour (10kg),12,5375.16,4560,0.0
+2025-05-19,Refined Sugar (5kg),9,2143.35,1890,0.0
+2025-05-19,Roast Ground Coffee (250g),10,2146.6,1600,20.0
+2025-05-20,Whole Wheat Flour (10kg),7,3261.86,2660,0.0
+2025-05-21,Assam Black Tea (500g),9,3159.99,2520,100.0
+2025-05-21,Premium Rice (5kg),1,436.04,350,0.0
+2025-05-21,Whole Wheat Flour (10kg),13,5894.33,4940,0.0
+2025-05-22,Roast Ground Coffee (250g),2,435.46,320,0.0
+2025-05-22,Assam Black Tea (500g),4,1439.6,1120,0.0
+2025-05-23,Lentils / Split Dal (1kg),13,1998.36,1560,50.0
+2025-05-23,Lentils / Split Dal (1kg),3,455.1,360,100.0
+2025-05-23,Iodized Salt (1kg),3,84.51,72,0.0
+2025-05-23,Whole Wheat Flour (10kg),6,2809.86,2280,100.0
+2025-05-24,Sunflower Cooking Oil (1L),2,299.34,260,0.0
+2025-05-24,Sunflower Cooking Oil (1L),10,1499.2,1300,20.0
+2025-05-24,Sunflower Cooking Oil (1L),6,933.54,780,20.0
+2025-05-24,Lentils / Split Dal (1kg),3,460.92,360,0.0
+2025-05-24,Lentils / Split Dal (1kg),4,628.44,480,50.0
+2025-05-25,Refined Sugar (5kg),1,237.75,210,50.0
+2025-05-28,Iodized Salt (1kg),9,255.42,216,0.0
+2025-05-28,Whole Wheat Flour (10kg),12,5384.52,4560,100.0
+2025-05-28,Assam Black Tea (500g),14,5002.62,3920,50.0
+2025-05-28,Refined Sugar (5kg),11,2510.75,2310,100.0
+2025-05-29,Lentils / Split Dal (1kg),2,304.16,240,100.0
+2025-05-30,Roast Ground Coffee (250g),3,637.29,480,100.0
+2025-05-30,Sunflower Cooking Oil (1L),4,598.4,520,0.0
+2025-06-01,Assam Black Tea (500g),4,1427.2,1120,0.0
+2025-06-01,Sunflower Cooking Oil (1L),9,1339.56,1170,0.0
+2025-06-02,Lentils / Split Dal (1kg),8,1249.44,960,50.0
+2025-06-02,Premium Rice (5kg),1,433.38,350,0.0
+2025-06-02,Refined Sugar (5kg),3,698.61,630,50.0
+2025-06-04,Sunflower Cooking Oil (1L),7,1075.83,910,0.0
+2025-06-05,Whole Wheat Flour (10kg),10,4652.7,3800,0.0
+2025-06-07,Whole Wheat Flour (10kg),11,4931.96,4180,0.0
+2025-06-08,Whole Wheat Flour (10kg),4,1792.08,1520,0.0
+2025-06-08,Lentils / Split Dal (1kg),4,610.36,480,50.0
+2025-06-11,Premium Rice (5kg),8,3585.12,2800,50.0
+2025-06-14,Sunflower Cooking Oil (1L),2,312.92,260,100.0
+2025-06-15,Refined Sugar (5kg),5,1142.35,1050,20.0
+2025-06-20,Premium Rice (5kg),2,850.68,700,0.0
+2025-06-20,Assam Black Tea (500g),10,3631.4,2800,100.0
+2025-06-20,Lentils / Split Dal (1kg),4,625.4,480,0.0
+2025-06-25,Assam Black Tea (500g),3,1090.44,840,0.0
+2025-06-25,Whole Wheat Flour (10kg),6,2705.4,2280,0.0
+2025-06-27,Premium Rice (5kg),5,2248.85,1750,50.0
+2025-06-28,Whole Wheat Flour (10kg),2,905.48,760,0.0
+2025-06-28,Roast Ground Coffee (250g),12,2566.44,1920,0.0
+2025-07-01,Iodized Salt (1kg),13,351.52,312,0.0
+2025-07-01,Iodized Salt (1kg),4,111.4,96,50.0
+2025-07-01,Whole Wheat Flour (10kg),1,465.08,380,50.0
+2025-07-03,Whole Wheat Flour (10kg),14,6528.06,5320,100.0
+2025-07-04,Refined Sugar (5kg),10,2386.3,2100,50.0
+2025-07-05,Assam Black Tea (500g),5,1748.25,1400,0.0
+2025-07-05,Whole Wheat Flour (10kg),11,5092.67,4180,100.0
+2025-07-05,Whole Wheat Flour (10kg),5,2267.6,1900,0.0
+2025-07-05,Lentils / Split Dal (1kg),4,614.4,480,0.0
+2025-07-06,Refined Sugar (5kg),3,697.95,630,0.0
+2025-07-06,Sunflower Cooking Oil (1L),1,153.95,130,0.0
+2025-07-07,Roast Ground Coffee (250g),7,1557.29,1120,0.0
+2025-07-08,Sunflower Cooking Oil (1L),4,597.68,520,20.0
+2025-07-08,Premium Rice (5kg),2,874.74,700,100.0
+2025-07-08,Assam Black Tea (500g),10,3486.6,2800,0.0
+2025-07-08,Whole Wheat Flour (10kg),4,1849.76,1520,50.0
+2025-07-08,Assam Black Tea (500g),11,4044.59,3080,100.0
+2025-07-08,Iodized Salt (1kg),7,192.85,168,100.0
+2025-07-09,Lentils / Split Dal (1kg),5,791.75,600,20.0
+2025-07-09,Refined Sugar (5kg),3,691.65,630,100.0
+2025-07-09,Lentils / Split Dal (1kg),7,1068.2,840,100.0
+2025-07-10,Refined Sugar (5kg),12,2768.4,2520,100.0
+2025-07-10,Roast Ground Coffee (250g),5,1100.4,800,0.0
+2025-07-10,Assam Black Tea (500g),1,365.94,280,50.0
+2025-07-12,Assam Black Tea (500g),12,4230.6,3360,0.0
+2025-07-12,Refined Sugar (5kg),2,457.04,420,20.0
+2025-07-12,Lentils / Split Dal (1kg),8,1239.44,960,0.0
+2025-07-13,Premium Rice (5kg),7,3011.89,2450,100.0
+2025-07-13,Assam Black Tea (500g),11,4056.25,3080,0.0
+2025-07-15,Assam Black Tea (500g),1,368.16,280,100.0
+2025-07-15,Refined Sugar (5kg),5,1188.4,1050,0.0
+2025-07-16,Iodized Salt (1kg),5,139.05,120,0.0
+2025-07-17,Iodized Salt (1kg),12,339.36,288,0.0
+2025-07-17,Sunflower Cooking Oil (1L),8,1229.12,1040,20.0
+2025-07-21,Refined Sugar (5kg),14,3342.92,2940,50.0
+2025-07-21,Lentils / Split Dal (1kg),14,2249.1,1680,20.0
+2025-07-22,Assam Black Tea (500g),2,719.14,560,0.0
+2025-07-22,Sunflower Cooking Oil (1L),7,1054.06,910,100.0
+2025-07-22,Lentils / Split Dal (1kg),14,2182.32,1680,0.0
+2025-07-22,Refined Sugar (5kg),6,1430.88,1260,0.0
+2025-07-22,Refined Sugar (5kg),5,1142.0,1050,0.0
+2025-07-23,Premium Rice (5kg),5,2154.5,1750,20.0
+2025-07-25,Premium Rice (5kg),8,3576.0,2800,20.0
+2025-07-25,Roast Ground Coffee (250g),9,1936.8,1440,100.0
+2025-07-25,Lentils / Split Dal (1kg),11,1688.06,1320,0.0
+2025-07-26,Assam Black Tea (500g),6,2092.62,1680,50.0
+2025-07-27,Roast Ground Coffee (250g),12,2635.92,1920,0.0
+2025-07-29,Assam Black Tea (500g),4,1397.96,1120,0.0
+2025-07-29,Refined Sugar (5kg),5,1202.85,1050,0.0
+2025-07-30,Assam Black Tea (500g),6,2184.66,1680,50.0
+2025-07-31,Lentils / Split Dal (1kg),14,2225.16,1680,0.0
+2025-07-31,Premium Rice (5kg),12,5401.56,4200,20.0
+2025-08-01,Premium Rice (5kg),7,3066.42,2450,50.0
+2025-08-02,Sunflower Cooking Oil (1L),12,1838.76,1560,20.0
+2025-08-02,Assam Black Tea (500g),9,3320.01,2520,20.0
+2025-08-03,Whole Wheat Flour (10kg),2,913.46,760,50.0
+2025-08-04,Roast Ground Coffee (250g),7,1545.11,1120,100.0
+2025-08-04,Assam Black Tea (500g),2,712.36,560,100.0
+2025-08-05,Roast Ground Coffee (250g),12,2648.64,1920,50.0
+2025-08-05,Lentils / Split Dal (1kg),4,641.28,480,100.0
+2025-08-06,Roast Ground Coffee (250g),14,2965.9,2240,50.0
+2025-08-06,Sunflower Cooking Oil (1L),6,905.46,780,100.0
+2025-08-06,Sunflower Cooking Oil (1L),2,301.9,260,0.0
+2025-08-06,Refined Sugar (5kg),13,2999.75,2730,0.0
+2025-08-07,Whole Wheat Flour (10kg),11,5042.62,4180,20.0
+2025-08-07,Refined Sugar (5kg),5,1153.6,1050,0.0
+2025-08-07,Refined Sugar (5kg),9,2074.95,1890,0.0
+2025-08-08,Whole Wheat Flour (10kg),1,453.78,380,50.0
+2025-08-08,Roast Ground Coffee (250g),1,213.02,160,50.0
+2025-08-09,Sunflower Cooking Oil (1L),1,155.06,130,0.0
+2025-08-09,Premium Rice (5kg),11,4918.54,3850,0.0
+2025-08-09,Sunflower Cooking Oil (1L),2,299.88,260,20.0
+2025-08-09,Assam Black Tea (500g),10,3479.1,2800,100.0
+2025-08-12,Iodized Salt (1kg),4,110.64,96,20.0
+2025-08-13,Iodized Salt (1kg),12,322.68,288,20.0
+2025-08-13,Iodized Salt (1kg),4,109.72,96,0.0
+2025-08-13,Refined Sugar (5kg),3,706.65,630,100.0
+2025-08-14,Premium Rice (5kg),7,2987.04,2450,50.0
+2025-08-15,Refined Sugar (5kg),13,3075.02,2730,0.0
+2025-08-17,Sunflower Cooking Oil (1L),10,1560.6,1300,100.0
+2025-08-18,Premium Rice (5kg),2,894.02,700,0.0
+2025-08-20,Premium Rice (5kg),9,4054.05,3150,100.0
+2025-08-21,Iodized Salt (1kg),3,83.76,72,50.0
+2025-08-21,Premium Rice (5kg),5,2196.3,1750,0.0
+2025-08-22,Sunflower Cooking Oil (1L),7,1076.81,910,0.0
+2025-08-22,Lentils / Split Dal (1kg),10,1590.2,1200,0.0
+2025-08-22,Iodized Salt (1kg),7,196.63,168,50.0
+2025-08-22,Premium Rice (5kg),3,1320.15,1050,0.0
+2025-08-23,Sunflower Cooking Oil (1L),10,1519.0,1300,100.0
+2025-08-25,Roast Ground Coffee (250g),7,1480.15,1120,50.0
+2025-08-25,Iodized Salt (1kg),7,191.38,168,20.0
+2025-08-25,Iodized Salt (1kg),10,277.2,240,0.0
+2025-08-25,Assam Black Tea (500g),1,356.29,280,100.0
+2025-08-25,Assam Black Tea (500g),7,2463.79,1960,0.0
+2025-08-26,Sunflower Cooking Oil (1L),9,1387.26,1170,50.0
+2025-08-26,Refined Sugar (5kg),3,721.26,630,20.0
+2025-08-28,Sunflower Cooking Oil (1L),11,1714.24,1430,0.0
+2025-08-28,Iodized Salt (1kg),9,246.6,216,0.0
+2025-08-29,Sunflower Cooking Oil (1L),5,779.95,650,50.0
+2025-08-29,Sunflower Cooking Oil (1L),11,1677.39,1430,100.0
+2025-08-30,Sunflower Cooking Oil (1L),2,314.02,260,100.0
+2025-08-30,Whole Wheat Flour (10kg),11,4937.35,4180,100.0
+2025-08-30,Premium Rice (5kg),7,3077.27,2450,100.0
+2025-08-31,Roast Ground Coffee (250g),1,219.51,160,0.0
+2025-08-31,Iodized Salt (1kg),3,81.15,72,0.0
+2025-09-01,Lentils / Split Dal (1kg),3,463.68,360,50.0
+2025-09-02,Iodized Salt (1kg),13,348.79,312,0.0
+2025-09-04,Refined Sugar (5kg),13,2966.34,2730,50.0
+2025-09-05,Refined Sugar (5kg),3,718.17,630,50.0
+2025-09-05,Refined Sugar (5kg),9,2074.14,1890,20.0
+2025-09-05,Assam Black Tea (500g),13,4720.04,3640,0.0
+2025-09-07,Iodized Salt (1kg),2,54.9,48,20.0
+2025-09-07,Refined Sugar (5kg),8,1923.6,1680,50.0
+2025-09-07,Iodized Salt (1kg),7,187.81,168,50.0
+2025-09-07,Premium Rice (5kg),8,3547.92,2800,0.0
+2025-09-08,Iodized Salt (1kg),10,282.8,240,50.0
+2025-09-08,Premium Rice (5kg),3,1342.35,1050,0.0
+2025-09-08,Iodized Salt (1kg),13,366.47,312,100.0
+2025-09-08,Iodized Salt (1kg),5,140.1,120,0.0
+2025-09-09,Premium Rice (5kg),7,3109.4,2450,100.0
+2025-09-10,Refined Sugar (5kg),8,1891.36,1680,50.0
+2025-09-10,Premium Rice (5kg),6,2604.84,2100,20.0
+2025-09-12,Sunflower Cooking Oil (1L),8,1197.68,1040,20.0
+2025-09-14,Whole Wheat Flour (10kg),6,2749.86,2280,0.0
+2025-09-16,Assam Black Tea (500g),2,738.18,560,0.0
+2025-09-17,Premium Rice (5kg),6,2627.94,2100,100.0
+2025-09-17,Premium Rice (5kg),7,3054.17,2450,20.0
+2025-09-17,Assam Black Tea (500g),3,1080.45,840,100.0
+2025-09-17,Sunflower Cooking Oil (1L),14,2122.82,1820,50.0
+2025-09-18,Lentils / Split Dal (1kg),11,1726.23,1320,50.0
+2025-09-19,Roast Ground Coffee (250g),13,2871.44,2080,100.0
+2025-09-19,Iodized Salt (1kg),3,80.58,72,0.0
+2025-09-19,Refined Sugar (5kg),7,1662.29,1470,50.0
+2025-09-19,Assam Black Tea (500g),11,3965.28,3080,0.0
+2025-09-20,Sunflower Cooking Oil (1L),11,1731.07,1430,50.0
+2025-09-21,Refined Sugar (5kg),11,2646.71,2310,0.0
+2025-09-22,Lentils / Split Dal (1kg),10,1544.1,1200,20.0
+2025-09-23,Whole Wheat Flour (10kg),2,937.46,760,20.0
+2025-09-23,Lentils / Split Dal (1kg),12,1869.0,1440,50.0
+2025-09-26,Refined Sugar (5kg),3,702.69,630,20.0
+2025-09-27,Lentils / Split Dal (1kg),14,2182.18,1680,100.0
+2025-09-27,Whole Wheat Flour (10kg),5,2238.8,1900,100.0
+2025-09-27,Lentils / Split Dal (1kg),6,951.72,720,0.0
+2025-09-28,Refined Sugar (5kg),12,2767.2,2520,100.0
+2025-10-01,Iodized Salt (1kg),1,27.0,24,0.0
+2025-10-02,Assam Black Tea (500g),6,2192.88,1680,50.0
+2025-10-03,Lentils / Split Dal (1kg),14,2184.0,1680,100.0
+2025-10-04,Lentils / Split Dal (1kg),6,915.6,720,0.0
+2025-10-04,Roast Ground Coffee (250g),5,1093.45,800,0.0
+2025-10-04,Whole Wheat Flour (10kg),11,4967.82,4180,50.0
+2025-10-05,Sunflower Cooking Oil (1L),8,1230.4,1040,20.0
+2025-10-05,Premium Rice (5kg),6,2674.26,2100,0.0
+2025-10-05,Whole Wheat Flour (10kg),11,4877.4,4180,0.0
+2025-10-06,Sunflower Cooking Oil (1L),2,307.08,260,20.0
+2025-10-06,Whole Wheat Flour (10kg),13,5826.47,4940,0.0
+2025-10-07,Lentils / Split Dal (1kg),6,935.58,720,100.0
+2025-10-07,Refined Sugar (5kg),3,717.33,630,20.0
+2025-10-07,Whole Wheat Flour (10kg),13,5871.58,4940,50.0
+2025-10-07,Premium Rice (5kg),13,5645.77,4550,20.0
+2025-10-08,Lentils / Split Dal (1kg),4,638.0,480,0.0
+2025-10-08,Lentils / Split Dal (1kg),6,951.3,720,20.0
+2025-10-09,Iodized Salt (1kg),6,166.56,144,0.0
+2025-10-09,Assam Black Tea (500g),11,3960.0,3080,50.0
+2025-10-09,Iodized Salt (1kg),10,278.2,240,100.0
+2025-10-11,Sunflower Cooking Oil (1L),4,619.04,520,50.0
+2025-10-12,Whole Wheat Flour (10kg),3,1352.58,1140,0.0
+2025-10-13,Refined Sugar (5kg),10,2306.1,2100,0.0
+2025-10-15,Premium Rice (5kg),7,3017.28,2450,20.0
+2025-10-15,Whole Wheat Flour (10kg),11,5045.59,4180,0.0
+2025-10-15,Whole Wheat Flour (10kg),6,2804.22,2280,100.0
+2025-10-16,Refined Sugar (5kg),7,1648.64,1470,0.0
+2025-10-18,Refined Sugar (5kg),1,237.32,210,20.0
+2025-10-18,Sunflower Cooking Oil (1L),8,1198.64,1040,0.0
+2025-10-19,Assam Black Tea (500g),2,729.92,560,50.0
+2025-10-20,Sunflower Cooking Oil (1L),3,455.07,390,20.0
+2025-10-21,Assam Black Tea (500g),2,723.26,560,20.0
+2025-10-23,Assam Black Tea (500g),11,4023.36,3080,100.0
+2025-10-24,Whole Wheat Flour (10kg),10,4530.6,3800,20.0
+2025-10-25,Assam Black Tea (500g),8,2812.16,2240,50.0
+2025-10-25,Assam Black Tea (500g),8,2918.4,2240,50.0
+2025-10-25,Iodized Salt (1kg),10,267.7,240,0.0
+2025-10-30,Iodized Salt (1kg),9,247.77,216,20.0
+2025-10-31,Sunflower Cooking Oil (1L),2,303.52,260,0.0
+2025-11-01,Refined Sugar (5kg),4,951.68,840,0.0
+2025-11-01,Whole Wheat Flour (10kg),13,5802.42,4940,0.0
+2025-11-01,Whole Wheat Flour (10kg),1,452.35,380,100.0
+2025-11-02,Sunflower Cooking Oil (1L),1,153.67,130,0.0
+2025-11-03,Assam Black Tea (500g),1,359.14,280,50.0
+2025-11-04,Refined Sugar (5kg),3,708.33,630,0.0
+2025-11-04,Lentils / Split Dal (1kg),12,1907.52,1440,50.0
+2025-11-04,Premium Rice (5kg),10,4368.2,3500,0.0
+2025-11-04,Roast Ground Coffee (250g),13,2747.29,2080,0.0
+2025-11-06,Whole Wheat Flour (10kg),5,2228.25,1900,100.0
+2025-11-06,Assam Black Tea (500g),10,3645.0,2800,20.0
+2025-11-06,Assam Black Tea (500g),10,3567.2,2800,0.0
+2025-11-08,Refined Sugar (5kg),8,1917.04,1680,50.0
+2025-11-08,Refined Sugar (5kg),4,938.36,840,50.0
+2025-11-09,Whole Wheat Flour (10kg),14,6389.74,5320,0.0
+2025-11-09,Whole Wheat Flour (10kg),4,1809.92,1520,0.0
+2025-11-10,Whole Wheat Flour (10kg),11,4952.42,4180,50.0
+2025-11-11,Premium Rice (5kg),11,4753.87,3850,20.0
+2025-11-11,Roast Ground Coffee (250g),4,887.04,640,100.0
+2025-11-11,Lentils / Split Dal (1kg),1,158.58,120,0.0
+2025-11-12,Whole Wheat Flour (10kg),9,4192.65,3420,0.0
+2025-11-13,Premium Rice (5kg),2,866.7,700,50.0
+2025-11-13,Premium Rice (5kg),9,3960.09,3150,20.0
+2025-11-15,Assam Black Tea (500g),12,4255.44,3360,20.0
+2025-11-16,Sunflower Cooking Oil (1L),14,2142.7,1820,0.0
+2025-11-17,Iodized Salt (1kg),8,226.08,192,100.0
+2025-11-17,Whole Wheat Flour (10kg),6,2753.34,2280,0.0
+2025-11-17,Sunflower Cooking Oil (1L),13,1952.47,1690,0.0
+2025-11-17,Roast Ground Coffee (250g),13,2814.76,2080,100.0
+2025-11-19,Roast Ground Coffee (250g),13,2856.75,2080,20.0
+2025-11-19,Roast Ground Coffee (250g),10,2130.3,1600,0.0
+2025-11-19,Sunflower Cooking Oil (1L),13,2041.39,1690,100.0
+2025-11-19,Lentils / Split Dal (1kg),5,770.4,600,50.0
+2025-11-20,Refined Sugar (5kg),1,231.08,210,20.0
+2025-11-22,Lentils / Split Dal (1kg),12,1893.12,1440,0.0
+2025-11-23,Roast Ground Coffee (250g),9,1990.26,1440,20.0
+2025-11-23,Refined Sugar (5kg),4,953.36,840,0.0
+2025-11-23,Iodized Salt (1kg),9,249.21,216,20.0
+2025-11-24,Sunflower Cooking Oil (1L),6,892.8,780,20.0
+2025-11-24,Roast Ground Coffee (250g),11,2425.17,1760,50.0
+2025-11-25,Iodized Salt (1kg),8,214.48,192,50.0
+2025-11-26,Refined Sugar (5kg),9,2077.74,1890,0.0
+2025-11-27,Whole Wheat Flour (10kg),5,2318.1,1900,0.0
+2025-11-28,Premium Rice (5kg),4,1801.04,1400,0.0
+2025-11-29,Premium Rice (5kg),12,5210.4,4200,0.0
+2025-11-30,Assam Black Tea (500g),9,3201.39,2520,0.0
+2025-12-02,Whole Wheat Flour (10kg),6,2812.14,2280,0.0
+2025-12-02,Iodized Salt (1kg),14,390.74,336,50.0
+2025-12-03,Lentils / Split Dal (1kg),7,1102.92,840,50.0
+2025-12-03,Refined Sugar (5kg),3,719.1,630,100.0
+2025-12-03,Roast Ground Coffee (250g),7,1494.29,1120,0.0
+2025-12-06,Sunflower Cooking Oil (1L),14,2167.48,1820,20.0
+2025-12-06,Sunflower Cooking Oil (1L),11,1682.78,1430,50.0
+2025-12-08,Lentils / Split Dal (1kg),1,153.74,120,100.0
+2025-12-08,Refined Sugar (5kg),13,3062.93,2730,20.0
+2025-12-08,Lentils / Split Dal (1kg),14,2166.22,1680,0.0
+2025-12-08,Roast Ground Coffee (250g),6,1319.4,960,0.0
+2025-12-09,Sunflower Cooking Oil (1L),6,928.98,780,20.0
+2025-12-09,Iodized Salt (1kg),7,193.76,168,20.0
+2025-12-10,Iodized Salt (1kg),12,330.72,288,20.0
+2025-12-10,Refined Sugar (5kg),12,2842.44,2520,50.0
+2025-12-10,Iodized Salt (1kg),6,163.44,144,0.0
+2025-12-11,Assam Black Tea (500g),8,2911.68,2240,100.0
+2025-12-11,Whole Wheat Flour (10kg),14,6498.8,5320,20.0
+2025-12-12,Iodized Salt (1kg),13,358.02,312,100.0
+2025-12-13,Roast Ground Coffee (250g),3,643.17,480,50.0
+2025-12-13,Premium Rice (5kg),2,858.26,700,20.0
+2025-12-14,Iodized Salt (1kg),3,82.26,72,50.0
+2025-12-15,Roast Ground Coffee (250g),13,2827.5,2080,0.0
+2025-12-15,Sunflower Cooking Oil (1L),1,149.03,130,50.0
+2025-12-16,Sunflower Cooking Oil (1L),14,2196.32,1820,0.0
+2025-12-17,Lentils / Split Dal (1kg),2,307.22,240,20.0
+2025-12-18,Whole Wheat Flour (10kg),10,4669.4,3800,0.0
+2025-12-19,Lentils / Split Dal (1kg),9,1377.63,1080,20.0
+2025-12-20,Assam Black Tea (500g),1,357.98,280,0.0
+2025-12-20,Whole Wheat Flour (10kg),2,928.28,760,20.0
+2025-12-20,Refined Sugar (5kg),7,1626.17,1470,0.0
+2025-12-20,Lentils / Split Dal (1kg),2,313.96,240,0.0
+2025-12-21,Premium Rice (5kg),1,435.17,350,100.0
+2025-12-23,Assam Black Tea (500g),13,4795.96,3640,50.0
+2025-12-24,Assam Black Tea (500g),8,2905.52,2240,0.0
+2025-12-24,Assam Black Tea (500g),6,2193.6,1680,50.0
+2025-12-25,Premium Rice (5kg),14,6173.58,4900,0.0
+2025-12-26,Lentils / Split Dal (1kg),6,942.06,720,0.0
+2025-12-27,Assam Black Tea (500g),7,2512.37,1960,0.0
+2025-12-27,Assam Black Tea (500g),2,712.5,560,100.0
+2025-12-27,Whole Wheat Flour (10kg),4,1807.6,1520,50.0
+2025-12-27,Sunflower Cooking Oil (1L),1,153.02,130,20.0
+2025-12-28,Iodized Salt (1kg),4,108.96,96,0.0
+2025-12-29,Premium Rice (5kg),5,2244.8,1750,100.0
+2025-12-30,Iodized Salt (1kg),12,340.32,288,50.0
+2025-12-31,Iodized Salt (1kg),6,164.16,144,50.0
+2026-01-02,Roast Ground Coffee (250g),11,2373.25,1760,0.0
+2026-01-02,Whole Wheat Flour (10kg),3,1376.4,1140,50.0
+2026-01-02,Iodized Salt (1kg),3,85.05,72,50.0
+2026-01-03,Lentils / Split Dal (1kg),6,953.82,720,20.0
+2026-01-04,Refined Sugar (5kg),14,3259.9,2940,50.0
+2026-01-05,Lentils / Split Dal (1kg),12,1854.84,1440,100.0
+2026-01-05,Lentils / Split Dal (1kg),9,1416.33,1080,20.0
+2026-01-05,Sunflower Cooking Oil (1L),13,1967.81,1690,0.0
+2026-01-05,Assam Black Tea (500g),5,1845.35,1400,0.0
+2026-01-05,Whole Wheat Flour (10kg),10,4606.3,3800,0.0
+2026-01-06,Whole Wheat Flour (10kg),6,2734.74,2280,50.0
+2026-01-08,Roast Ground Coffee (250g),13,2748.98,2080,100.0
+2026-01-08,Lentils / Split Dal (1kg),6,932.7,720,0.0
+2026-01-08,Assam Black Tea (500g),10,3671.7,2800,0.0
+2026-01-09,Sunflower Cooking Oil (1L),1,153.56,130,0.0
+2026-01-09,Assam Black Tea (500g),2,715.32,560,20.0
+2026-01-09,Assam Black Tea (500g),11,3930.74,3080,100.0
+2026-01-10,Iodized Salt (1kg),3,82.29,72,0.0
+2026-01-11,Sunflower Cooking Oil (1L),2,309.82,260,0.0
+2026-01-11,Premium Rice (5kg),12,5403.24,4200,50.0
+2026-01-13,Iodized Salt (1kg),1,26.97,24,0.0
+2026-01-13,Sunflower Cooking Oil (1L),1,151.12,130,50.0
+2026-01-14,Refined Sugar (5kg),14,3239.46,2940,20.0
+2026-01-14,Iodized Salt (1kg),10,272.4,240,50.0
+2026-01-14,Premium Rice (5kg),12,5188.08,4200,20.0
+2026-01-15,Roast Ground Coffee (250g),8,1732.16,1280,0.0
+2026-01-15,Premium Rice (5kg),13,5520.97,4550,0.0
+2026-01-18,Lentils / Split Dal (1kg),14,2156.28,1680,100.0
+2026-01-19,Refined Sugar (5kg),12,2898.6,2520,50.0
+2026-01-19,Premium Rice (5kg),7,3103.66,2450,0.0
+2026-01-20,Lentils / Split Dal (1kg),10,1597.5,1200,0.0
+2026-01-21,Assam Black Tea (500g),11,3961.21,3080,20.0
+2026-01-23,Refined Sugar (5kg),6,1420.32,1260,100.0
+2026-01-24,Whole Wheat Flour (10kg),11,4960.67,4180,0.0
+2026-01-26,Sunflower Cooking Oil (1L),8,1226.08,1040,0.0
+2026-01-27,Iodized Salt (1kg),13,349.57,312,0.0
+2026-01-29,Roast Ground Coffee (250g),11,2427.92,1760,0.0
+2026-01-29,Lentils / Split Dal (1kg),11,1754.83,1320,20.0
+2026-01-29,Sunflower Cooking Oil (1L),9,1381.77,1170,50.0
+2026-01-29,Roast Ground Coffee (250g),12,2628.0,1920,100.0
+2026-01-29,Sunflower Cooking Oil (1L),10,1524.5,1300,0.0
+2026-01-30,Refined Sugar (5kg),4,965.32,840,20.0
+2026-01-31,Whole Wheat Flour (10kg),1,462.32,380,100.0
+2026-02-01,Whole Wheat Flour (10kg),5,2217.55,1900,100.0
+2026-02-01,Assam Black Tea (500g),7,2568.44,1960,0.0
+2026-02-02,Assam Black Tea (500g),1,350.02,280,0.0
+2026-02-02,Premium Rice (5kg),6,2550.0,2100,20.0
+2026-02-03,Assam Black Tea (500g),4,1461.68,1120,100.0
+2026-02-04,Sunflower Cooking Oil (1L),8,1192.0,1040,0.0
+2026-02-04,Whole Wheat Flour (10kg),12,5315.88,4560,20.0
+2026-02-05,Iodized Salt (1kg),12,338.4,288,100.0
+2026-02-07,Lentils / Split Dal (1kg),14,2183.58,1680,0.0
+2026-02-08,Refined Sugar (5kg),13,3136.64,2730,0.0
+2026-02-08,Sunflower Cooking Oil (1L),11,1689.6,1430,100.0
+2026-02-09,Sunflower Cooking Oil (1L),11,1663.09,1430,0.0
+2026-02-10,Premium Rice (5kg),7,3150.42,2450,20.0
+2026-02-10,Sunflower Cooking Oil (1L),4,612.28,520,0.0
+2026-02-11,Premium Rice (5kg),13,5545.02,4550,100.0
+2026-02-12,Refined Sugar (5kg),5,1153.3,1050,0.0
+2026-02-12,Lentils / Split Dal (1kg),3,468.36,360,0.0
+2026-02-12,Lentils / Split Dal (1kg),6,939.24,720,0.0
+2026-02-13,Sunflower Cooking Oil (1L),3,457.47,390,0.0
+2026-02-14,Premium Rice (5kg),8,3505.92,2800,100.0
+2026-02-15,Roast Ground Coffee (250g),5,1085.0,800,50.0
+2026-02-16,Whole Wheat Flour (10kg),9,4059.0,3420,100.0
+2026-02-17,Refined Sugar (5kg),1,230.0,210,50.0
+2026-02-17,Iodized Salt (1kg),5,133.95,120,0.0
+2026-02-18,Sunflower Cooking Oil (1L),12,1892.4,1560,0.0
+2026-02-19,Lentils / Split Dal (1kg),9,1441.44,1080,0.0
+2026-02-19,Whole Wheat Flour (10kg),6,2718.36,2280,0.0
+2026-02-19,Assam Black Tea (500g),11,3923.15,3080,100.0
+2026-02-20,Refined Sugar (5kg),8,1886.08,1680,100.0
+2026-02-20,Iodized Salt (1kg),8,218.32,192,50.0
+2026-02-21,Refined Sugar (5kg),3,722.34,630,20.0
+2026-02-21,Sunflower Cooking Oil (1L),4,629.0,520,100.0
+2026-02-22,Sunflower Cooking Oil (1L),12,1886.88,1560,0.0
+2026-02-23,Premium Rice (5kg),14,6049.54,4900,0.0
+2026-02-25,Whole Wheat Flour (10kg),11,5129.63,4180,50.0
+2026-02-25,Sunflower Cooking Oil (1L),9,1351.53,1170,50.0
+2026-03-02,Lentils / Split Dal (1kg),12,1903.56,1440,50.0
+2026-03-04,Iodized Salt (1kg),13,368.94,312,100.0
+2026-03-04,Roast Ground Coffee (250g),11,2426.27,1760,100.0
+2026-03-04,Refined Sugar (5kg),1,233.67,210,50.0
+2026-03-06,Premium Rice (5kg),13,5715.06,4550,0.0
+2026-03-06,Refined Sugar (5kg),9,2106.45,1890,0.0
+2026-03-06,Roast Ground Coffee (250g),2,435.48,320,100.0
+2026-03-07,Lentils / Split Dal (1kg),9,1366.74,1080,20.0
+2026-03-08,Sunflower Cooking Oil (1L),9,1393.38,1170,20.0
+2026-03-08,Iodized Salt (1kg),12,332.16,288,0.0
+2026-03-08,Sunflower Cooking Oil (1L),9,1389.33,1170,100.0
+2026-03-09,Whole Wheat Flour (10kg),4,1853.64,1520,100.0
+2026-03-10,Whole Wheat Flour (10kg),9,4189.5,3420,0.0
+2026-03-10,Assam Black Tea (500g),3,1068.57,840,0.0
+2026-03-11,Whole Wheat Flour (10kg),10,4433.2,3800,20.0
+2026-03-11,Sunflower Cooking Oil (1L),1,149.73,130,100.0
+2026-03-12,Whole Wheat Flour (10kg),11,4984.76,4180,0.0
+2026-03-12,Premium Rice (5kg),1,447.99,350,0.0
+2026-03-12,Sunflower Cooking Oil (1L),13,1950.26,1690,20.0
+2026-03-12,Iodized Salt (1kg),7,187.53,168,100.0
+2026-03-12,Roast Ground Coffee (250g),6,1303.2,960,20.0
+2026-03-14,Roast Ground Coffee (250g),13,2790.71,2080,20.0
+2026-03-15,Iodized Salt (1kg),3,80.73,72,20.0
+2026-03-15,Sunflower Cooking Oil (1L),8,1240.24,1040,20.0
+2026-03-15,Assam Black Tea (500g),9,3271.59,2520,0.0
+2026-03-15,Lentils / Split Dal (1kg),6,927.36,720,0.0
+2026-03-15,Assam Black Tea (500g),8,2872.8,2240,20.0
+2026-03-16,Roast Ground Coffee (250g),3,661.65,480,0.0
+2026-03-17,Assam Black Tea (500g),11,3845.6,3080,0.0
+2026-03-18,Refined Sugar (5kg),9,2150.91,1890,0.0
+2026-03-18,Refined Sugar (5kg),13,3056.82,2730,20.0
+2026-03-20,Assam Black Tea (500g),3,1095.06,840,0.0
+2026-03-21,Lentils / Split Dal (1kg),12,1891.44,1440,0.0
+2026-03-21,Premium Rice (5kg),7,3078.39,2450,0.0
+2026-03-23,Sunflower Cooking Oil (1L),13,2009.02,1690,50.0
+2026-03-25,Roast Ground Coffee (250g),2,441.52,320,0.0
+2026-03-25,Whole Wheat Flour (10kg),5,2323.05,1900,20.0
+2026-03-26,Roast Ground Coffee (250g),12,2534.64,1920,100.0
+2026-03-26,Roast Ground Coffee (250g),10,2166.3,1600,0.0
+2026-03-26,Premium Rice (5kg),3,1305.63,1050,0.0
+2026-03-26,Whole Wheat Flour (10kg),5,2347.95,1900,100.0
+2026-03-26,Sunflower Cooking Oil (1L),11,1732.94,1430,100.0
+2026-03-30,Sunflower Cooking Oil (1L),12,1870.32,1560,0.0
+2026-03-31,Assam Black Tea (500g),12,4235.64,3360,0.0
+2026-03-31,Lentils / Split Dal (1kg),11,1744.93,1320,0.0
