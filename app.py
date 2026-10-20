@@ -23,8 +23,18 @@ if data_option == "Use Demo Data":
 else:
     file = st.sidebar.file_uploader("Upload CSV or Excel", type=["csv", "xlsx"])
     if file:
-        df_raw = pd.read_csv(file) if file.name.endswith(".csv") else pd.read_excel(file)
-        st.sidebar.success(f"Loaded {file.name}")
+        if file.name.endswith(".csv"):
+            df_raw = pd.read_csv(file)
+            st.sidebar.success(f"Loaded {file.name}")
+        else:
+            # Read all sheet names from the Excel file
+            excel_file = pd.ExcelFile(file)
+            sheet_names = excel_file.sheet_names
+            
+            # Let the user choose which sheet to load
+            selected_sheet = st.sidebar.selectbox("Select Excel Sheet", sheet_names)
+            df_raw = pd.read_excel(file, sheet_name=selected_sheet)
+            st.sidebar.success(f"Loaded sheet: '{selected_sheet}'")
 
 if df_raw is not None:
     st.sidebar.header("2. Map Columns")
@@ -77,4 +87,5 @@ if df_raw is not None:
     except Exception as e:
         st.error(f"Error: {e}")
 else:
-    st.info("👈 Choose Demo Data or upload your file in the sidebar to get started.")
+    st.info("👈 Choose Demo Data or upload your Excel file in the sidebar to get started.")
+
