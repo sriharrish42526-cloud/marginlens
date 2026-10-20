@@ -8,7 +8,7 @@ from generate_sample_data import generate_data
 st.set_page_config(page_title="MarginLens", page_icon="📊", layout="wide")
 
 st.title("📊 MarginLens")
-st.markdown("**Multi-Sheet & Custom Range Sales Analyzer**")
+st.markdown("**Multi-Sheet Combined Sales & Profit Analyzer**")
 
 # Sidebar
 st.sidebar.header("1. Data Source")
@@ -30,35 +30,32 @@ else:
             excel_file = pd.ExcelFile(file)
             sheet_names = excel_file.sheet_names
             
-            # Multi-sheet selector
-            selected_sheet = st.sidebar.selectbox("Select Excel Sheet", sheet_names)
+            # Multi-sheet selector (Select one or multiple sheets)
+            selected_sheets = st.sidebar.multiselect(
+                "Select Sheets to Combine", 
+                sheet_names, 
+                default=[sheet_names[0]] if sheet_names else []
+            )
             
-            # Optional Header row customization
-            header_row = st.sidebar.number_input("Header Row Index (0 for first row)", min_value=0, value=0, step=1)
-            
-            df_raw = pd.read_excel(file, sheet_name=selected_sheet, header=header_row)
-            st.sidebar.success(f"Loaded sheet: '{selected_sheet}'")
+            if selected_sheets:
+                df_list = []
+                for sheet in selected_sheets:
+                    temp_df = pd.read_excel(file, sheet_name=sheet)
+                    temp_df['Source_Sheet'] = sheet # Keep track of origin sheet
+                    df_list.append(temp_df)
+                
+                # Combine all selected sheets into one master dataframe
+                df_raw = pd.concat(df_list, ignore_index=True)
+                st.sidebar.success(f"Combined {len(selected_sheets)} sheet(s) successfully!")
+            else:
+                st.sidebar.warning("Please select at least one sheet.")
 
 if df_raw is not None:
-    # Row Range Selector
-    st.sidebar.header("2. Specify Row Range")
-    total_rows = len(df_raw)
-    row_range = st.sidebar.slider(
-        "Select Row Range to Analyze",
-        min_value=1,
-        max_value=max(1, total_rows),
-        value=(1, total_rows)
-    )
-    
-    # Slice dataframe based on selected range
-    start_idx, end_idx = row_range
-    df_sliced = df_raw.iloc[start_idx-1:end_idx].copy()
+    with st.expander("📋 Preview Combined Table Data", expanded=True):
+        st.dataframe(df_raw.head(10), use_container_width=True)
 
-    with st.expander(f"📋 Preview Table Data (Rows {start_idx} to {end_idx})", expanded=True):
-        st.dataframe(df_sliced.head(10), use_container_width=True)
-
-    st.sidebar.header("3. Map Table Headers")
-    cols = list(df_sliced.columns)
+    st.sidebar.header("2. Map Table Headers")
+    cols = list(df_raw.columns)
     
     def find_col(kws):
         for c in cols:
@@ -81,11 +78,11 @@ if df_raw is not None:
     }
 
     try:
-        df = validate_and_process_data(df_sliced, mapping)
+        df = validate_and_process_data(df_raw, mapping)
         kpis = compute_kpis(df)
 
         # Main KPI Metrics
-        st.markdown("### Key Metrics")
+        st.markdown("### Key Metrics (Combined Sheets)")
         c1, c2, c3, c4 = st.columns(4)
         c1.metric("Total Revenue", f"₹{kpis['sales']:,.2f}")
         c2.metric("Total Cost", f"₹{kpis['cost']:,.2f}")
@@ -111,6 +108,6 @@ if df_raw is not None:
             st.plotly_chart(fig2, use_container_width=True)
 
     except Exception as e:
-        st.error(f"Error processing data range: {e}")
+        st.error(f"Error processing combined sheets: {e}")
 else:
-    st.info("👈 Choose Demo Data or upload your multi-sheet Excel file in the sidebar to get started.")
+    st.info("👈 Choose Demo Data or upload an Excel file with multiple sheets to begin.")
