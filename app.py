@@ -78,4 +78,3 @@ if df_raw is not None:
         st.error(f"Error: {e}")
 else:
     st.info("👈 Choose Demo Data or upload your file in the sidebar to get started.")
-
