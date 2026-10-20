@@ -8,7 +8,7 @@ from generate_sample_data import generate_data
 st.set_page_config(page_title="MarginLens", page_icon="📊", layout="wide")
 
 st.title("📊 MarginLens")
-st.markdown("**Multi-Sheet & Custom Row Range Sales Analyzer**")
+st.markdown("**Multi-Sheet, Custom Row & Column Range Sales Analyzer**")
 
 # Sidebar
 st.sidebar.header("1. Data Source")
@@ -50,8 +50,25 @@ else:
                 st.sidebar.warning("Please select at least one sheet.")
 
 if df_raw is not None:
-    # Row Range Selector
-    st.sidebar.header("2. Specify Row Range")
+    # 1. Column Range Selector
+    st.sidebar.header("2. Specify Column Range")
+    all_columns = list(df_raw.columns)
+    if len(all_columns) > 1:
+        col_range = st.sidebar.select_slider(
+            "Select Column Range",
+            options=all_columns,
+            value=(all_columns[0], all_columns[-1])
+        )
+        start_col_idx = all_columns.index(col_range[0])
+        end_col_idx = all_columns.index(col_range[1])
+        # Slice columns safely (ensuring start <= end)
+        if start_col_idx <= end_col_idx:
+            df_raw = df_raw.iloc[:, start_col_idx:end_col_idx+1]
+        else:
+            df_raw = df_raw.iloc[:, end_col_idx:start_col_idx+1]
+
+    # 2. Row Range Selector
+    st.sidebar.header("3. Specify Row Range")
     total_rows = len(df_raw)
     row_range = st.sidebar.slider(
         "Select Row Range to Analyze",
@@ -60,13 +77,13 @@ if df_raw is not None:
         value=(1, total_rows)
     )
     
-    start_idx, end_idx = row_range
-    df_sliced = df_raw.iloc[start_idx-1:end_idx].copy()
+    start_row, end_row = row_range
+    df_sliced = df_raw.iloc[start_row-1:end_row].copy()
 
-    with st.expander(f"📋 Preview Table Data (Rows {start_idx} to {end_idx})", expanded=True):
+    with st.expander(f"📋 Preview Filtered Data (Rows {start_row}-{end_row})", expanded=True):
         st.dataframe(df_sliced.head(10), use_container_width=True)
 
-    st.sidebar.header("3. Map Table Headers")
+    st.sidebar.header("4. Map Table Headers")
     cols = list(df_sliced.columns)
     
     def find_col(kws):
