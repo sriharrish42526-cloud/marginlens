@@ -27,32 +27,39 @@ else:
             df_raw = pd.read_csv(file)
             st.sidebar.success(f"Loaded {file.name}")
         else:
-            # Read all sheet names from the Excel file
             excel_file = pd.ExcelFile(file)
             sheet_names = excel_file.sheet_names
-            
-            # Let the user choose which sheet to load
             selected_sheet = st.sidebar.selectbox("Select Excel Sheet", sheet_names)
             df_raw = pd.read_excel(file, sheet_name=selected_sheet)
             st.sidebar.success(f"Loaded sheet: '{selected_sheet}'")
 
 if df_raw is not None:
-    st.sidebar.header("2. Map Columns")
+    # Preview the raw table to verify headers and rows
+    with st.expander("📋 Preview Uploaded Table (First 10 Rows)", expanded=True):
+        st.dataframe(df_raw.head(10), use_container_width=True)
+
+    st.sidebar.header("2. Map Table Headers")
     cols = list(df_raw.columns)
     
     def find_col(kws):
         for c in cols:
-            if any(k in c.lower() for k in kws):
+            if any(k in str(c).lower() for k in kws):
                 return c
         return cols[0]
 
-    date_c = st.sidebar.selectbox("Date", cols, index=cols.index(find_col(["date"])))
-    prod_c = st.sidebar.selectbox("Product", cols, index=cols.index(find_col(["product", "item"])))
-    qty_c = st.sidebar.selectbox("Quantity", cols, index=cols.index(find_col(["qty", "quantity"])))
-    sales_c = st.sidebar.selectbox("Sales Revenue", cols, index=cols.index(find_col(["sale", "revenue"])))
-    cost_c = st.sidebar.selectbox("Cost", cols, index=cols.index(find_col(["cost"])))
+    date_c = st.sidebar.selectbox("Select Date Column", cols, index=cols.index(find_col(["date"])))
+    prod_c = st.sidebar.selectbox("Select Product Column", cols, index=cols.index(find_col(["product", "item"])))
+    qty_c = st.sidebar.selectbox("Select Quantity Column", cols, index=cols.index(find_col(["qty", "quantity"])))
+    sales_c = st.sidebar.selectbox("Select Sales Revenue Column", cols, index=cols.index(find_col(["sale", "revenue"])))
+    cost_c = st.sidebar.selectbox("Select Cost Column", cols, index=cols.index(find_col(["cost"])))
 
-    mapping = {"date": date_c, "product": prod_c, "quantity": qty_c, "sales": sales_c, "cost": cost_c}
+    mapping = {
+        "date": date_c, 
+        "product": prod_c, 
+        "quantity": qty_c, 
+        "sales": sales_c, 
+        "cost": cost_c
+    }
 
     try:
         df = validate_and_process_data(df_raw, mapping)
@@ -85,7 +92,6 @@ if df_raw is not None:
             st.plotly_chart(fig2, use_container_width=True)
 
     except Exception as e:
-        st.error(f"Error: {e}")
+        st.error(f"Error processing mapped columns: {e}")
 else:
-    st.info("👈 Choose Demo Data or upload your Excel file in the sidebar to get started.")
-
+    st.info("👈 Choose Demo Data or upload your Excel/CSV file in the sidebar to get started.")
