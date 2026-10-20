@@ -3,7 +3,7 @@ import numpy as np
 
 def validate_and_process_data(df: pd.DataFrame, mapping: dict) -> pd.DataFrame:
     if df is None or df.empty:
-        raise ValueError("The uploaded dataset is empty.")
+        raise ValueError("The selected sheet or range is empty.")
 
     required_keys = ['date', 'product', 'quantity', 'sales', 'cost']
     for key in required_keys:
